@@ -1,4 +1,4 @@
-const Employee = require('../library/employee')
+const Employee = require('../lib/employee')
 
 test("Can create employee instace", () => {
     const employee = new Employee()

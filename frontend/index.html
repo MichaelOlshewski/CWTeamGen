@@ -5,8 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../frontend/bootstrap-grid.min.css">
 </head>
 <body>
-    <header><p>My Team Profile</p></header>
+    <header><p>{{ teamName }}</p></header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-5 col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <p>{{ res.name }}</p>
+                                <p>{{ res.role }}</p>
+                            </div>
+                            <div     class="card-body">
+                                <p>{{ Employee ID }}</p>
+                                <p>{{ Employee Email }}</p>
+                                <p>{{ Office Number }}</p>
+                                <p>{{ }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-5 col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <p>{{ res.name }}</p>
+                                <p>{{ res.role }}</p>
+                            </div>
+                            <div class="card-body">
+                                <p>{{ Employee ID }}</p>
+                                <p>{{ Employee Email }}</p>
+                                <p>{{ Office Number }}</p>
+                                <p>{{ }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <p>{{ res.name }}</p>
+                                <p>{{ res.role }}</p>
+                            </div>
+                            <div class="card-body">
+                                <p>{{ Employee ID }}</p>
+                                <p>{{ Employee Email }}</p>
+                                <p>{{ Office Number }}</p>
+                                <p>{{ }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -2,9 +2,10 @@
   "name": "cwteamgen",
   "version": "1.0.0",
   "description": "A Command Line Interface to insert current team members and create a dynamic webpage with team member information",
-  "main": "teamgen.js",
+  "main": "app.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "lib": "lib"
   },
   "scripts": {
     "test": "jest --verbose test/*",

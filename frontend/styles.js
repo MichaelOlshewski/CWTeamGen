@@ -1,3 +1,4 @@
+const styles = `
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html, body {
@@ -52,3 +53,6 @@ header p {
     padding: 3px;
     text-align: left;
 }
+`
+
+module.exports = styles
