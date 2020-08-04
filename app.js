@@ -146,7 +146,9 @@ function createTeam() {
             <section>
                 <div class="container">
                     <div class="row">
+    
     `
+    
     pageArr.push(pageBegin)
 
     for(let i = 1; i < employees.length; i++) {
