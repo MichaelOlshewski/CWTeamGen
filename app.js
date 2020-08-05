@@ -199,11 +199,11 @@ function createTeam() {
     `
     pageArr.push(pageEnd)
 
-    fs.writeFile(`./generated/${employees[0].trim().replace(' ', '-')}.html`, pageArr.join(""), function (err) {
+    fs.writeFile(`./generated/${employees[0].trim().replace(' ', '-').replace(' ', '-')}.html`, pageArr.join(""), function (err) {
         if (err) {
             console.log(err)
         } else {
-            console.log(`Team Created! Team page generated in ./generated/${employees[0].trim().replace(' ', '-')}.html`)
+            console.log(`Team Created! Team page generated in ./generated/${employees[0].trim().replace(' ', '-').replace(' ', '-')}.html`)
         }
     })
 }
